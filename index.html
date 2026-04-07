@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ජේ.කේ.එස්.ඉන්දික</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: black;
+      min-height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 10px;
+    }
+
+    /* 
+      The design uses a fixed 1024×720 coordinate system.
+      We scale the wrapper to fit any screen while preserving the layout.
+    */
+    .scale-container {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrapper {
+      position: relative;
+      width: 1024px;
+      height: 720px;
+      /* Scale down on smaller screens */
+      transform-origin: top center;
+    }
+
+    .layer {
+      position: absolute;
+      width: 1024px;
+      height: 720px;
+    }
+
+    audio {
+      max-width: 300px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="scale-container">
+    <div class="wrapper" id="wrapper">
+
+      <div class="layer" style="background-color:black;z-index: 1;">
+        <img style="position: absolute;top: 465px;left: 17px; width:210px; height:220px;"
+            src="Picture1.png" />
+        <img style="position: absolute;top: 445px;left: -5px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 2;">
+        <img style="position: absolute;top: 355px;left: 210px; width:210px; height:220px;"
+            src="Picture2.png" />
+        <img style="position: absolute;top: 335px;left: 190px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 3;">
+        <img style="position: absolute;top: 240px;left: 17px; width:210px; height:220px;"
+            src="Picture3.png" />
+        <img style="position: absolute;top: 220px;left: -5px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 4;">
+        <img style="position: absolute;top: 130px;left: 210px; width:210px; height:230px;"
+            src="Picture4.png" />
+        <img style="position: absolute;top: 110px;left: 190px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 5;">
+        <img style="position: absolute;top: 20px;left: 400px; width:210px; height:220px;"
+            src="Picture5.png" />
+        <img style="position: absolute;top: 0px;left: 380px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 6;">
+        <img style="position: absolute;top: 130px;left: 590px; width:210px; height:220px;"
+            src="Picture6.png" />
+        <img style="position: absolute;top: 110px;left: 570px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 7;">
+        <img style="position: absolute;top: 240px;left: 780px; width:210px; height:220px;"
+            src="Picture7.png" />
+        <img style="position: absolute;top: 220px;left: 760px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 8;">
+        <img style="position: absolute;top: 355px;left: 590px; width:210px; height:220px;"
+            src="Picture8.png" />
+        <img style="position: absolute;top: 335px;left: 570px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 9;">
+        <img style="position: absolute;top: 465px;left: 780px; width:210px; height:220px;"
+            src="Picture9.png" />
+        <img style="position: absolute;top: 445px;left: 760px; width:250px; height:250px;"
+            src="frameStyle2.gif" />
+      </div>
+
+      <div class="layer" style="z-index: 10;">
+        <img style="position: absolute;top: 553px;left: 190px; width:620px; height:200px;"
+            src="Bflag.gif" />
+        <img style="position: absolute;top: 225px;left: 390px; width:230px; height:230px;"
+            src="styleAll3.gif" />
+        <img style="position: absolute;top: 290px;left: 380px; width:240px; height:240px;"
+            src="BuddhaRupa2.png" />
+        <img style="position: absolute;top: 670px;left: 10px; width:1015px; height:78px;"
+            src="Picture140m.png" />
+      </div>
+
+      <div class="layer" style="z-index: 11;">
+        <img style="position: absolute;top: 670px;left: 10px; width:1015px; height:100px;"
+            src="boardFrame3.gif" />
+        <audio controls autoplay loop style="position: absolute;top: 770px;left: 360px;">
+          <source src="1.mp3" type="audio/mpeg">
+        </audio>
+      </div>
+
+      <div class="layer" style="z-index: 14;">
+        <a style="position: absolute;top: 470px;left: 110px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">01</a>
+        <a style="position: absolute;top: 360px;left: 300px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">02</a>
+        <a style="position: absolute;top: 240px;left: 85px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">03</a>
+        <a style="position: absolute;top: 135px;left: 300px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">04</a>
+        <a style="position: absolute;top: 25px;left: 485px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">05</a>
+        <a style="position: absolute;top: 135px;left: 680px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">06</a>
+        <a style="position: absolute;top: 240px;left: 860px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">07</a>
+        <a style="position: absolute;top: 360px;left: 680px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">08</a>
+        <a style="position: absolute;top: 470px;left: 860px; background-color:yellow;border-radius:10px;width: 30px;height: 30px; text-decoration: none; color: #000;display: flex;justify-content: center;align-items: center;">09</a>
+      </div>
+
+    </div>
+  </div>
+
+  <script>
+    function scaleWrapper() {
+      const wrapper = document.getElementById('wrapper');
+      const container = wrapper.parentElement;
+
+      const designWidth = 1024;
+      const designHeight = 720;
+
+      // Available space
+      const availableWidth = container.clientWidth;
+      const availableHeight = window.innerHeight - 20; // 10px padding top+bottom
+
+      // Scale to fit both width and height
+      const scaleX = availableWidth / designWidth;
+      const scaleY = availableHeight / designHeight;
+      const scale = Math.min(scaleX, scaleY, 1); // never scale UP beyond 1
+
+      wrapper.style.transform = `scale(${scale})`;
+
+      // Adjust the container height so the page doesn't leave empty space
+      const scaledHeight = designHeight * scale;
+      container.style.height = scaledHeight + 'px';
+    }
+
+    scaleWrapper();
+    window.addEventListener('resize', scaleWrapper);
+  </script>
+</body>
+</html>
